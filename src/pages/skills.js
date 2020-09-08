@@ -2,18 +2,15 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import BasicLayout from "../layouts/BasicLayout"
 import ListSkills from "../components/ListSkills"
+import {
+  frontendSkills,
+  frontendSkillsColor,
+  backendSkills,
+  backendSkillsColor,
+  dbSkills,
+  dbSkillsColor,
+} from "../utils/skills"
 import "./skills.scss"
-
-const skills = [
-  { type: "Java", level: 85 },
-  { type: "Javascript", level: 75 },
-  { type: "Javascript", level: 30 },
-  { type: "Javascript", level: 60 },
-  { type: "Javascript", level: 40 },
-  { type: "Javascript", level: 100 },
-  { type: "Javascript", level: 5 },
-  { type: "Javascript", level: 0 },
-]
 
 export default function index() {
   return (
@@ -21,7 +18,15 @@ export default function index() {
       <Container class="skills">
         <div className="skills__block">
           <h2>Frontend</h2>
-          <ListSkills skills={skills} />
+          <ListSkills skills={frontendSkills} colors={frontendSkillsColor} />
+        </div>
+        <div className="skills__block">
+          <h2>Backend</h2>
+          <ListSkills skills={backendSkills} colors={backendSkillsColor} />
+        </div>
+        <div className="skills__block">
+          <h2>Database</h2>
+          <ListSkills skills={dbSkills} colors={dbSkillsColor} />
         </div>
       </Container>
     </BasicLayout>

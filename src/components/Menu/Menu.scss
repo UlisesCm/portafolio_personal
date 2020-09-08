@@ -1,0 +1,21 @@
+.menu {
+  position: relative;
+  z-index: 10;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    li {
+      padding: 30px 20px;
+      font-weight: bold;
+      a {
+        color: #fff;
+        &:hover {
+          color: #0098d3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

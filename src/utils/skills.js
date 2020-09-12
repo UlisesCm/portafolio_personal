@@ -31,6 +31,7 @@ export const backendSkillsColor = {
     background: "#009331",
   },
 }
+
 export const dbSkills = [
   { type: "MongoDB", level: 60 },
   { type: "SQLite", level: 35 },

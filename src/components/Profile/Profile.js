@@ -6,20 +6,20 @@ import "./Profile.scss"
 
 const data = [
   {
-    title: "Edad",
-    info: "23 años",
+    title: "Edad:",
+    info: "23 años.",
   },
   {
-    title: "Educacion",
-    info: "ITSU",
+    title: "Educacion:",
+    info: "Instituto Tecnologico Superior de Uruapan.",
   },
   {
-    title: "Educacion",
-    info: "ITSU",
+    title: "Carrera:",
+    info: "Ingenieria en Sistemas Computacionales.",
   },
   {
-    title: "Educacion",
-    info: "ITSU",
+    title: "Ubicacion:",
+    info: "Michoacan, Mexico.",
   },
 ]
 
@@ -34,9 +34,9 @@ export default function Profile() {
             <Image src={profileImage} fluid />
           </Col>
           <Col xs={12} md={8} className="info__data">
-            <span>¡Hola!</span>
+            <span> ¡Hola! </span>
             <p>Edgar Ulises Cipres Medina</p>
-            <p>Formacion Developer</p>
+            <p>Frontend Developer</p>
             <hr />
             <div className="more-info">
               {data.map((item, index) => (

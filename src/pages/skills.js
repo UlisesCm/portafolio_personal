@@ -2,6 +2,7 @@ import React from "react"
 import { Container } from "react-bootstrap"
 import BasicLayout from "../layouts/BasicLayout"
 import ListSkills from "../components/ListSkills"
+import Seo from "../components/seo"
 import {
   frontendSkills,
   frontendSkillsColor,
@@ -15,6 +16,10 @@ import "./skills.scss"
 export default function index() {
   return (
     <BasicLayout menuColor="#000">
+      <Seo
+        title="Skills"
+        Description="Habilidades desarroladas por medio de proyectos escolares, personales y como freelance"
+      />
       <Container class="skills">
         <div className="skills__block">
           <h2>Frontend</h2>

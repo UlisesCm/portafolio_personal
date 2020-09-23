@@ -16,9 +16,9 @@ export default function AboutMe() {
         Tengo experiencia en tecnologias de Frontend como HTML, CSS y
         Javascript, tambien cuento con algo de conocimientos en
         Librerias/Frameworks como JQuery, Bootstrap y Gatsby.js (con la cual fue
-        construida esta pagina). No es mi especialidad pero tengo una ligera
-        experiencia en manejo tecnologias de Backend como Node.js con Frameworks
-        como Express.js y manejo de bases de datos como MongoDB y MySQL.
+        construida esta pagina). Tengo algo de experiencia en manejo tecnologias
+        de Backend como Node.js con Frameworks como Express.js y manejo de bases
+        de datos como MongoDB y MySQL.
       </p>
       <p>
         Actualmente me encuentro en formacion en tecnologias como React.js,

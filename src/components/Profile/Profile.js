@@ -3,25 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap"
 import Social from "./Social"
 import profileImage from "../../images/fotoperfil.jpg"
 import "./Profile.scss"
-
-const data = [
-  {
-    title: "Edad:",
-    info: "23 años.",
-  },
-  {
-    title: "Educacion:",
-    info: "Instituto Tecnologico Superior de Uruapan.",
-  },
-  {
-    title: "Carrera:",
-    info: "Ingenieria en Sistemas Computacionales.",
-  },
-  {
-    title: "Ubicacion:",
-    info: "Michoacan, Mexico.",
-  },
-]
+import { personalData } from "../../utils/personalData"
 
 export default function Profile() {
   return (
@@ -39,7 +21,7 @@ export default function Profile() {
             <p>Frontend Developer</p>
             <hr />
             <div className="more-info">
-              {data.map((item, index) => (
+              {personalData.map((item, index) => (
                 <div key={index} className="item">
                   <p>{item.title}</p>
                   <p>{item.info}</p>

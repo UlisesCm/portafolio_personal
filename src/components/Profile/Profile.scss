@@ -27,15 +27,25 @@
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    @media (max-width: 992px) {
+      margin-top: -450px;
+    }
+    @media (max-width: 768px) {
+      margin-top: -500px;
+    }
     .info {
       padding: 50px;
       &__data {
+        @media (max-width: 768px) {
+          margin-top: 30px;
+        }
         > span {
           background-color: #0098d3;
           font-weight: bold;
           color: #fff;
-          padding: 5px 10px;
+          padding: 5px 15px;
           border-radius: 4px;
+          margin-top: 100px;
         }
         > p:first-of-type {
           margin: 10px 0 0 0;
@@ -53,8 +63,11 @@
               }
               &:last-of-type {
                 width: 75%;
-                color: #a2a2a2;
+                color: #7e7c7c;
               }
+            }
+            @media (max-width: 576px) {
+              display: block;
             }
           }
         }

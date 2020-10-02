@@ -1,15 +1,18 @@
 .menu {
   position: relative;
   z-index: 10;
+
   ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin: 0;
     li {
-      padding: 30px 20px;
-      font-weight: bold;
+      display: inline;
+      padding: 25px 20px;
+      font-weight: 600;
       a {
+        font-size: 1.2rem;
         color: #fff;
         &:hover {
           color: #0098d3;

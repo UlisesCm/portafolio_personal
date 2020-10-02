@@ -18,7 +18,7 @@ export default function index() {
     <BasicLayout menuColor="#000">
       <Seo
         title="Skills"
-        Description="Habilidades desarroladas por medio de proyectos escolares, personales y como freelance"
+        Description="Habilidades desarroladas por medio de proyectos escolares, personales y como freelance de Edgar Ulises Cipres Medina"
       />
       <Container class="skills">
         <div className="skills__block">

@@ -1,5 +1,5 @@
-import highlights from "../images/projects/HighLights.png"
-import neofruits from "../images/projects/NeoFruits.png"
+import highlights from "../images/projects/HighLights.jpg"
+import neofruits from "../images/projects/NeoFruits.jpg"
 
 export default [
   {

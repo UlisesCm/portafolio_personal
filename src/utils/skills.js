@@ -1,12 +1,13 @@
 export const frontendSkills = [
   { type: "Html", level: 90 },
-  { type: "Css", level: 80 },
+  { type: "Css", level: 85 },
   { type: "JavaScript", level: 80 },
-  { type: "jQuery", level: 50 },
-  { type: "React.js", level: 30 },
-  { type: "Gatsby.js", level: 30 },
+  { type: "jQuery", level: 40 },
+  { type: "React.js", level: 45 },
+  { type: "Gatsby.js", level: 50 },
   { type: "Bootstrap", level: 75 },
-  { type: "Sass", level: 20 },
+  { type: "Sass", level: 30 },
+  { type: "Jest", level: 30 },
 ]
 
 export const frontendSkillsColor = {
@@ -18,10 +19,9 @@ export const frontendSkillsColor = {
 }
 
 export const backendSkills = [
-  { type: "Node.Js", level: 70 },
-  { type: "Php", level: 30 },
-  { type: "Express.Js", level: 60 },
-  { type: "Laravel", level: 20 },
+  { type: "Node.Js", level: 50 },
+  { type: "Php", level: 25 },
+  { type: "Express.Js", level: 40 },
 ]
 
 export const backendSkillsColor = {
@@ -36,7 +36,6 @@ export const dbSkills = [
   { type: "MongoDB", level: 60 },
   { type: "SQLite", level: 35 },
   { type: "Mongoose", level: 40 },
-  { type: "Sequelize", level: 20 },
 ]
 
 export const dbSkillsColor = {

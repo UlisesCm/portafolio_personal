@@ -13,7 +13,7 @@ export default function Profile() {
       <Container className="box">
         <Row className="info">
           <Col xs={12} md={4}>
-            <Image src={profileImage} fluid />
+            <Image src={profileImage} alt="Ulises Cipres" fluid />
           </Col>
           <Col xs={12} md={8} className="info__data">
             <span> ¡Hola! </span>

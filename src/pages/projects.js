@@ -18,7 +18,11 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Col key={index} xs={12} sm={12} md={4} className="project">
               <Card>
-                <Card.Img variant="top" src={project.image} />
+                <Card.Img
+                  variant="top"
+                  src={project.image}
+                  alt={project.description}
+                />
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>

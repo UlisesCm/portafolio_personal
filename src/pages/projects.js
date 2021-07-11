@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Card, Button } from "react-bootstrap"
+import { Container, Row, Col, Card, /* Button */ } from "react-bootstrap"
 import BasicLayout from "../layouts/BasicLayout"
 import projects from "../utils/projects"
 import Seo from "../components/seo"
@@ -32,7 +32,7 @@ export default function Projects() {
                     without
                     rel="noreferrer"
                   >
-                    <Button varian="primary">Ver proyecto</Button>
+                   {/*  <Button varian="primary">Ver proyecto</Button> */}
                   </a>
                 </Card.Body>
               </Card>

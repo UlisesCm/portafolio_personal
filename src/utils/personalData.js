@@ -1,7 +1,7 @@
 export const personalData = [
   {
     title: "Edad:",
-    info: "23 años.",
+    info: "24 años.",
   },
   {
     title: "Educacion:",
